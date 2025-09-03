@@ -23,11 +23,11 @@ cy.get('@fechaNacimiento').find('[data-type="day"]').type('08');
 cy.get('@fechaNacimiento').find('[data-type="month"]').type('09');
 cy.get('@fechaNacimiento').find('[data-type="year"]').type('1993');
 
-cy.get('[data-cy=input-email]').type('cualquiercorreo@gmail.com')
-cy.get('[data-cy=input-confirmar-email]').type('cualquiercorreo@gmail.com')
-cy.get('[data-cy=input-password]').type('Yain-1243')
-cy.get('[data-cy=input-repetir-password]').type('Yain-1243')
-//cy.get('[data-cy=btn-registrarse]').click()
+cy.get('[data-cy=input-email]').type('cualquiercorr@gmail.com')
+cy.get('[data-cy=input-confirmar-email]').type('cualquiercorr@gmail.com')
+cy.get('[data-cy=input-password]').type('Yain-1245')
+cy.get('[data-cy=input-repetir-password]').type('Yain-1245')
+cy.get('[data-cy=btn-registrarse]').click()
 
 })
 
